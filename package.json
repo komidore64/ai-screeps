@@ -1,0 +1,8 @@
+{
+  "name": "screeps",
+  "description": "AI for Screeps",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt-screeps": "^1.4.0"
+  }
+}
