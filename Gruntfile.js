@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-screeps');
 
     var creds = require('./credentials.json')
-    var branch = grunt.option('branch'); || 'default';
+    var branch = grunt.option('branch') || 'default';
 
     grunt.initConfig({
         screeps: {
