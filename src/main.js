@@ -16,7 +16,6 @@ var spawn_name = 'Spawn1'; // FIXME: don't hardcode spawn?
 
 module.exports.loop = function () {
     spawn.run(spawn_name);
-
     for(var name in Game.creeps) {
         var creep = Game.creeps[name];
         if(creep.memory.role == 'harvester') {
